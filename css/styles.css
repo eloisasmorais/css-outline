@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Assistant', sans-serif;
+}
+
+div {
+  position: absolute;
+}
+
+a {
+  color: #dddddd;
+}
+
+.container {
+  position: relative;
+  background-color: #062c2d;
+  height: 100%;
+  overflow: hidden;
+}
+
+.text {
+  cursor: default;
+}
+
+.text.top {
+  z-index: 1;
+}
+
+.text.top h1 {
+  font-size: 10vw;
+  white-space: nowrap;
+  color: transparent;
+  z-index: 0;
+  color: #fff;
+  top: 0;
+}
+
+.img-container {
+  left: 0;
+  right: 0;
+  margin-left: 15%;
+  margin-top: 2%;
+  z-index: 2;
+}
+
+.img-container img {
+  width: 85%;
+}
+
+.text.outline {
+  z-index: 3;
+}
+
+.text.outline h1 {
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #fff;
+  white-space: nowrap;
+  color: transparent;
+  z-index: 10;
+  font-size: 10vw;
+  display: block;
+}
+
+.move-right {
+  margin-left: -20%;
+  margin-top: 2.5em;
+}
+
+footer {
+  font-weight: 300;
+  color: #fff;
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
